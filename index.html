@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>sam hicks</title>
+
+  <!--let browser know website is optimized for mobile--> <meta
+    name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- google icon font --> <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- materialize css cdn --> <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- local main.css link --> <link
+    rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" data-target="slide-out" class="show-on-medium-and-down sidenav-trigger"><i class="large material-icons">menu</i></a>
+      <a class="brand-logo right" href="index.html">sam hicks</a>
+      <ul id="nav-desktop" class="left hide-on-med-and-down">
+        <li><a href="#">bio</a></li>
+        <li><a href="#">projects</a></li>
+        <li><a href="#">get in touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul id="slide-out" class="sidenav">
+
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img class="responsive-img" src="assets/images/blackhole.jpg">
+        </div>
+        <a href="#user"><img class="circle" src="assets/images/headshot.jpg" alt=""></a>
+        <a href="#user"><span class="white-text name">sam hicks</span></a>
+        <a href="#email"><span class="white-text email">samueljacksonhicks@gmail.com</span></a>
+      </div>
+    </li>
+
+    <li><a class="waves-effect" href="#">bio</a></li>
+    <li><a class="waves-effect" href="#">projects</a></li>
+    <li><a class="waves-effect" href="#">get in touch</a></li>
+  </ul>
+
+  <!-- jquery js cdn -->
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+  <!-- materialize js cdn -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+
+  <script>
+$(document).ready(function() {
+  $(".sidenav").sidenav();
+});
+  </script>
+</body>
+</html>
