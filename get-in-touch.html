@@ -26,7 +26,39 @@
     </script>
 </head>
 <body>
-  <div id="nav-placeholder"></div>
+  <!-- navbar -->
+  <nav>
+    <div class="nav-wrapper">
+      <!-- slidenav burger icon -->
+      <a href="#" data-target="slide-out" class="show-on-medium-and-down sidenav-trigger"><i class="large material-icons">menu</i></a>
+      <!-- logo -->
+      <a class="brand-logo right" href="index.html">sam hicks</a>
+      <!-- desktop nav list -->
+      <ul id="nav-desktop" class="left hide-on-small-and-down">
+        <li><a href="bio.html">bio</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="get-in-touch.html">get in touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- mobile slidenav -->
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <!-- personal info block -->
+      <div class="user-view">
+        <div class="background">
+          <img class="responsive-img" src="assets/images/blackhole.jpg"></img>
+        </div>
+        <a href="index.html"><img class="circle" src="assets/images/headshot.jpg" alt=""></img></a>
+        <a href="index.html"><span class="white-text name">sam hicks</span></a>
+        <a href="get-in-touch.html"><span class="white-text email">samueljacksonhicks@gmail.com</span></a>
+      </div>
+    </li>
+    <li><a class="waves-effect" href="bio.html">bio</a></li>
+    <li><a class="waves-effect" href="projects.html">projects</a></li>
+    <li><a class="waves-effect" href="get-in-touch.html">get in touch</a></li>
+  </ul>
 
   <h1>GET IN TOUCH</h1>
 
