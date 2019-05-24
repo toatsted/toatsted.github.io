@@ -1,8 +1,22 @@
-a.brand-logo {
-  position: relative;
+h1 {
+  margin: 1rem;
+  color: #ee6e73;
 }
 
-a.brand-logo:before {
+p.indent {
+  text-indent: 1rem;
+}
+
+span.bold {
+  font-weight: bold;
+} span.italic {
+  font-style: italic;
+}
+
+/* navbar logo's cool animation! */
+a.brand-logo {
+  position: relative;
+} a.brand-logo:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -15,9 +29,7 @@ a.brand-logo:before {
   transform: scaleX(0);
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
-}
-
-a.brand-logo:hover:before {
+} a.brand-logo:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
